@@ -26,13 +26,13 @@ keywords = ["jsonrpc", "json-rpc", "json", "rpc", "serde"]
 
 [workspace.dependencies]
 # local projects
-jsonrpc-core = { version = "18.0.0", path = "./core" }
-jsonrpc-core-client = { version = "18.0.0", path = "./core-client" }
-jsonrpc-http-server = { version = "18.0.0", path = "./http" }
-jsonrpc-ipc-server = { version = "18.0.0", path = "./ipc" }
-jsonrpc-pubsub = { version = "18.0.0", path = "./pubsub" }
-jsonrpc-server-utils = { version = "18.0.0", path = "./server-utils" }
-jsonrpc-tcp-server = { version = "18.0.0", path = "./tcp" }
+jsonrpc-core = { version = "18.0.1", path = "./core" }
+jsonrpc-core-client = { version = "18.0.1", path = "./core-client" }
+jsonrpc-http-server = { version = "18.0.1", path = "./http" }
+jsonrpc-ipc-server = { version = "18.0.1", path = "./ipc" }
+jsonrpc-pubsub = { version = "18.0.1", path = "./pubsub" }
+jsonrpc-server-utils = { version = "18.0.1", path = "./server-utils" }
+jsonrpc-tcp-server = { version = "18.0.1", path = "./tcp" }
 
 assert_matches = "1.3"
 env_logger = "0.7"
