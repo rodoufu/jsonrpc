@@ -10,9 +10,9 @@ license.workspace = true
 edition.workspace = true
 
 [dependencies]
-jsonrpc-core = { version = "18.0.0", path = "../core" }
-jsonrpc-core-client = { version = "18.0.0", path = "../core-client" }
-jsonrpc-pubsub = { version = "18.0.0", path = "../pubsub" }
+jsonrpc-core.workspace = true
+jsonrpc-core-client.workspace = true
+jsonrpc-pubsub.workspace = true
 log.workspace = true
 serde.workspace = true
 serde_json.workspace = true
@@ -25,4 +25,4 @@ arbitrary_precision = [
 ]
 
 [dev-dependencies]
-jsonrpc-derive = { version = "18.0.0", path = "../derive" }
+jsonrpc-derive.workspace = true
