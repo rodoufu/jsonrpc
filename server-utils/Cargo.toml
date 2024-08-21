@@ -14,7 +14,7 @@ edition.workspace = true
 bytes = "1.0"
 futures.workspace = true
 globset = "0.4"
-jsonrpc-core = { version = "18.0.0", path = "../core" }
+jsonrpc-core.workspace = true
 lazy_static.workspace = true
 log.workspace = true
 tokio = { workspace = true, features = [
