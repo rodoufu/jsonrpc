@@ -28,6 +28,7 @@ keywords = ["jsonrpc", "json-rpc", "json", "rpc", "serde"]
 # local projects
 jsonrpc-core = { version = "18.0.1", path = "./core" }
 jsonrpc-core-client = { version = "18.0.1", path = "./core-client" }
+jsonrpc-derive = { version = "18.0.0", path = "./derive" }
 jsonrpc-http-server = { version = "18.0.1", path = "./http" }
 jsonrpc-ipc-server = { version = "18.0.1", path = "./ipc" }
 jsonrpc-pubsub = { version = "18.0.1", path = "./pubsub" }
