@@ -25,7 +25,7 @@ ipc = ["jsonrpc-client-transports/ipc"]
 arbitrary_precision = ["jsonrpc-client-transports/arbitrary_precision"]
 
 [dependencies]
-jsonrpc-client-transports = { version = "18.0.0", path = "./transports", default-features = false }
+jsonrpc-client-transports = { workspace = true, default-features = false }
 futures = { workspace = true, features = ["compat"] }
 
 [badges]
